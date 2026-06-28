@@ -1,0 +1,39 @@
+/* Custom Styles for Burger Blast */
+
+/* Smooth scrolling when clicking Navbar links */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Make the Hero text stand out more */
+.hero-special h1 {
+    letter-spacing: -2px;
+    text-transform: uppercase;
+}
+
+/* Hover effect for Burger Cards */
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.15) !important;
+}
+
+/* Custom styling for the Cart scrollbar */
+#cart-items {
+    max-height: 400px;
+    overflow-y: auto;
+}
+
+/* Making the Topping images circular */
+.topping-card img {
+    border-bottom: 2px solid #ffc107;
+}
+
+/* Footer branding */
+footer h4 {
+    color: #ffc107;
+}
+
